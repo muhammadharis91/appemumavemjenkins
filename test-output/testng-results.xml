@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69565" started-at="2019-12-09T12:53:46 PKT" finished-at="2019-12-09T12:54:55 PKT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69565" started-at="2019-12-09T12:53:46 PKT" finished-at="2019-12-09T12:54:55 PKT">
+      <class name="testapk.Testcases">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:testapk.Testcases@7e0b85f9]" name="tc1" is-config="true" duration-ms="10040" started-at="2019-12-09T12:53:36 PKT" finished-at="2019-12-09T12:53:46 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="Capabilities()[pri:0, instance:testapk.Testcases@7e0b85f9]" name="Capabilities" is-config="true" duration-ms="9511" started-at="2019-12-09T12:53:46 PKT" finished-at="2019-12-09T12:53:55 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Capabilities -->
+        <test-method status="PASS" signature="tc2()[pri:1, instance:testapk.Testcases@7e0b85f9]" name="tc2" duration-ms="13145" started-at="2019-12-09T12:53:55 PKT" finished-at="2019-12-09T12:54:08 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:2, instance:testapk.Testcases@7e0b85f9]" name="tc3" duration-ms="12998" started-at="2019-12-09T12:54:08 PKT" finished-at="2019-12-09T12:54:21 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc4()[pri:3, instance:testapk.Testcases@7e0b85f9]" name="tc4" duration-ms="11736" started-at="2019-12-09T12:54:21 PKT" finished-at="2019-12-09T12:54:33 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:4, instance:testapk.Testcases@7e0b85f9]" name="tc5" duration-ms="12502" started-at="2019-12-09T12:54:33 PKT" finished-at="2019-12-09T12:54:46 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="tc6()[pri:5, instance:testapk.Testcases@7e0b85f9]" name="tc6" duration-ms="9453" started-at="2019-12-09T12:54:46 PKT" finished-at="2019-12-09T12:54:55 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6 -->
+        <test-method status="PASS" signature="tc7()[pri:0, instance:testapk.Testcases@7e0b85f9]" name="tc7" is-config="true" duration-ms="45" started-at="2019-12-09T12:54:55 PKT" finished-at="2019-12-09T12:54:55 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7 -->
+      </class> <!-- testapk.Testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
