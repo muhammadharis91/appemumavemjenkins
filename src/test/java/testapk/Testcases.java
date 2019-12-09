@@ -143,12 +143,12 @@ public class Testcases {
 	}
 	@AfterSuite
 	@Severity(SeverityLevel.BLOCKER) 
-	
+	//-----------------------------------------------Stops appium and emulator-------------------------------------------------------//
 	public void tc7() throws InterruptedException, IOException {
 	ProcessBuilder pb2 = new ProcessBuilder("cmd", "/c", "stopappiumemulator.bat");
 	File dir2 = new File("src");
 	pb2.directory(dir2);
 	Process q = pb2.start();
-	
+	System.out.println("Appium and Emulator stopped succcesfully");
 	}
 }
