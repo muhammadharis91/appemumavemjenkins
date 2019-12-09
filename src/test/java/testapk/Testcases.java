@@ -28,7 +28,7 @@ public class Testcases {
 	@BeforeSuite
 	@Severity(SeverityLevel.BLOCKER) 
 	//-----------------------------------------------Starts appium and emulator-------------------------------------------------------//
-	public void tc1() throws InterruptedException, IOException {
+	public void startappemu() throws InterruptedException, IOException {
 	ProcessBuilder pb1 = new ProcessBuilder("cmd", "/c", "appiumemulator.bat");
 	File dir = new File("src");
 	pb1.directory(dir);
@@ -60,7 +60,7 @@ public class Testcases {
 	@Test(priority=1)
 	@Severity(SeverityLevel.CRITICAL)
 	//-----------------------------------------------Correct email and correct password-------------------------------------------------------//
-	public void tc2() throws MalformedURLException, InterruptedException {     
+	public void tc1() throws MalformedURLException, InterruptedException {     
 
 		AndroidDriver<AndroidElement> driver=Capabilities();
 		appobjects ao=new appobjects(driver);
@@ -79,7 +79,7 @@ public class Testcases {
 	@Test(priority=2)
 	@Severity(SeverityLevel.CRITICAL)
 	//-----------------------------------------------Incorrect email-------------------------------------------------------//
-	public void tc3() throws MalformedURLException, InterruptedException {     
+	public void tc2() throws MalformedURLException, InterruptedException {     
 
 		AndroidDriver<AndroidElement> driver=Capabilities();
 		appobjects ao=new appobjects(driver);
@@ -99,7 +99,7 @@ public class Testcases {
 	@Test(priority=3)
 	@Severity(SeverityLevel.NORMAL)
 	//-----------------------------------------------empty email and empty password-------------------------------------------------------//
-	public void tc4() throws MalformedURLException, InterruptedException {     
+	public void tc3() throws MalformedURLException, InterruptedException {     
 
 		AndroidDriver<AndroidElement> driver=Capabilities();
 		appobjects ao=new appobjects(driver);
@@ -116,7 +116,7 @@ public class Testcases {
 	@Test(priority=4)
 	@Severity(SeverityLevel.MINOR)
 	//-----------------------------------------------correct email and empty password-------------------------------------------------------//
-	public void tc5() throws MalformedURLException, InterruptedException {     
+	public void tc4() throws MalformedURLException, InterruptedException {     
 
 		AndroidDriver<AndroidElement> driver=Capabilities();
 		appobjects ao=new appobjects(driver);
@@ -134,7 +134,7 @@ public class Testcases {
 	@Test(priority=5)
 	@Severity(SeverityLevel.TRIVIAL)
 	//-----------------------------------------------correct email and empty password-------------------------------------------------------//
-	public void tc6() throws MalformedURLException, InterruptedException {     
+	public void tc5() throws MalformedURLException, InterruptedException {     
 
 		AndroidDriver<AndroidElement> driver=Capabilities();
 		System.out.println("Test jenkinsCIapp new");
@@ -144,7 +144,7 @@ public class Testcases {
 	@AfterSuite
 	@Severity(SeverityLevel.BLOCKER) 
 	//-----------------------------------------------Stops appium and emulator-------------------------------------------------------//
-	public void tc7() throws InterruptedException, IOException {
+	public void stopappemu() throws InterruptedException, IOException {
 	ProcessBuilder pb2 = new ProcessBuilder("cmd", "/c", "stopappiumemulator.bat");
 	File dir2 = new File("src");
 	pb2.directory(dir2);
