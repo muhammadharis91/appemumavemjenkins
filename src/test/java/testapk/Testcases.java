@@ -70,8 +70,6 @@ public class Testcases {
 		String toasttext = ao.checkloginstatus.getText();
 		System.out.println(toasttext);
 		Assert.assertEquals("Login successful", toasttext);
-
-
 	}
 
 

@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="49426" started-at="2019-12-06T17:48:43 PKT" finished-at="2019-12-06T17:49:33 PKT">
+  <suite name="testapk.Testcases" duration-ms="73497" started-at="2019-12-09T16:57:36 PKT" finished-at="2019-12-09T16:58:50 PKT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="49426" started-at="2019-12-06T17:48:43 PKT" finished-at="2019-12-06T17:49:33 PKT">
+    <test name="Command line test" duration-ms="73497" started-at="2019-12-09T16:57:36 PKT" finished-at="2019-12-09T16:58:50 PKT">
       <class name="testapk.Testcases">
-        <test-method status="PASS" signature="tc2()[pri:0, instance:testapk.Testcases@6973bf95]" name="tc2" is-config="true" duration-ms="12590" started-at="2019-12-06T17:48:31 PKT" finished-at="2019-12-06T17:48:43 PKT">
+        <test-method status="PASS" signature="startappemu()[pri:0, instance:testapk.Testcases@233fe9b6]" name="startappemu" is-config="true" duration-ms="10043" started-at="2019-12-09T16:57:26 PKT" finished-at="2019-12-09T16:57:36 PKT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method status="PASS" signature="tc5()[pri:0, instance:testapk.Testcases@6973bf95]" name="tc5" is-config="true" duration-ms="9819" started-at="2019-12-06T17:48:43 PKT" finished-at="2019-12-06T17:48:53 PKT">
+        </test-method> <!-- startappemu -->
+        <test-method status="PASS" signature="Capabilities()[pri:0, instance:testapk.Testcases@233fe9b6]" name="Capabilities" is-config="true" duration-ms="10974" started-at="2019-12-09T16:57:36 PKT" finished-at="2019-12-09T16:57:47 PKT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc5 -->
-        <test-method status="PASS" signature="tc1()[pri:1, instance:testapk.Testcases@6973bf95]" name="tc1" duration-ms="13970" started-at="2019-12-06T17:48:53 PKT" finished-at="2019-12-06T17:49:07 PKT">
+        </test-method> <!-- Capabilities -->
+        <test-method status="PASS" signature="tc1()[pri:1, instance:testapk.Testcases@233fe9b6]" name="tc1" duration-ms="14356" started-at="2019-12-09T16:57:47 PKT" finished-at="2019-12-09T16:58:01 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method status="PASS" signature="tc3()[pri:3, instance:testapk.Testcases@6973bf95]" name="tc3" duration-ms="12058" started-at="2019-12-06T17:49:07 PKT" finished-at="2019-12-06T17:49:19 PKT">
+        <test-method status="PASS" signature="tc2()[pri:2, instance:testapk.Testcases@233fe9b6]" name="tc2" duration-ms="13777" started-at="2019-12-09T16:58:01 PKT" finished-at="2019-12-09T16:58:15 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:3, instance:testapk.Testcases@233fe9b6]" name="tc3" duration-ms="11851" started-at="2019-12-09T16:58:15 PKT" finished-at="2019-12-09T16:58:27 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc3 -->
-        <test-method status="PASS" signature="tc4()[pri:4, instance:testapk.Testcases@6973bf95]" name="tc4" duration-ms="13395" started-at="2019-12-06T17:49:19 PKT" finished-at="2019-12-06T17:49:33 PKT">
+        <test-method status="PASS" signature="tc4()[pri:4, instance:testapk.Testcases@233fe9b6]" name="tc4" duration-ms="12668" started-at="2019-12-09T16:58:27 PKT" finished-at="2019-12-09T16:58:40 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:5, instance:testapk.Testcases@233fe9b6]" name="tc5" duration-ms="9721" started-at="2019-12-09T16:58:40 PKT" finished-at="2019-12-09T16:58:50 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="stopappemu()[pri:0, instance:testapk.Testcases@233fe9b6]" name="stopappemu" is-config="true" duration-ms="30" started-at="2019-12-09T16:58:50 PKT" finished-at="2019-12-09T16:58:50 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopappemu -->
       </class> <!-- testapk.Testcases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testapk.Testcases -->
 </testng-results>
