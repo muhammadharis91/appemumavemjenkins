@@ -34,6 +34,7 @@ public class Testcases {
 	pb.directory(dir);
 	Process p = pb.start();
 	Thread.sleep(10000);
+	System.out.println("Appium and Emulator started succcesfully");
 	}
 	
 	
