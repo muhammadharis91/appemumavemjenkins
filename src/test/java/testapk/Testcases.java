@@ -27,12 +27,12 @@ public class Testcases {
 	
 	@BeforeSuite
 	@Severity(SeverityLevel.BLOCKER) 
-	
+	//-----------------------------------------------Starts appium and emulator-------------------------------------------------------//
 	public void tc1() throws InterruptedException, IOException {
-	ProcessBuilder pb = new ProcessBuilder("cmd", "/c", "appiumemulator.bat");
+	ProcessBuilder pb1 = new ProcessBuilder("cmd", "/c", "appiumemulator.bat");
 	File dir = new File("src");
-	pb.directory(dir);
-	Process p = pb.start();
+	pb1.directory(dir);
+	Process p = pb1.start();
 	Thread.sleep(10000);
 	System.out.println("Appium and Emulator started succcesfully");
 	}
@@ -41,8 +41,7 @@ public class Testcases {
 	@BeforeTest
 	@Severity(SeverityLevel.BLOCKER) 
 	public static AndroidDriver<AndroidElement> Capabilities() throws MalformedURLException
-	
-	
+	//-----------------------------------------------Driver function-------------------------------------------------------//
 	{
 		
 		File file = new File("src");
