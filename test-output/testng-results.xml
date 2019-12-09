@@ -2,43 +2,43 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="73259" started-at="2019-12-09T14:55:18 PKT" finished-at="2019-12-09T14:56:32 PKT">
+  <suite name="Default suite" duration-ms="73178" started-at="2019-12-09T15:24:45 PKT" finished-at="2019-12-09T15:25:59 PKT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="73259" started-at="2019-12-09T14:55:18 PKT" finished-at="2019-12-09T14:56:32 PKT">
+    <test name="Default test" duration-ms="73178" started-at="2019-12-09T15:24:45 PKT" finished-at="2019-12-09T15:25:59 PKT">
       <class name="testapk.Testcases">
-        <test-method status="PASS" signature="tc1()[pri:0, instance:testapk.Testcases@7e0b85f9]" name="tc1" is-config="true" duration-ms="10048" started-at="2019-12-09T14:55:08 PKT" finished-at="2019-12-09T14:55:18 PKT">
+        <test-method status="PASS" signature="startappemu()[pri:0, instance:testapk.Testcases@7e0b85f9]" name="startappemu" is-config="true" duration-ms="10038" started-at="2019-12-09T15:24:35 PKT" finished-at="2019-12-09T15:24:45 PKT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc1 -->
-        <test-method status="PASS" signature="Capabilities()[pri:0, instance:testapk.Testcases@7e0b85f9]" name="Capabilities" is-config="true" duration-ms="10703" started-at="2019-12-09T14:55:18 PKT" finished-at="2019-12-09T14:55:29 PKT">
+        </test-method> <!-- startappemu -->
+        <test-method status="PASS" signature="Capabilities()[pri:0, instance:testapk.Testcases@7e0b85f9]" name="Capabilities" is-config="true" duration-ms="10719" started-at="2019-12-09T15:24:45 PKT" finished-at="2019-12-09T15:24:56 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Capabilities -->
-        <test-method status="PASS" signature="tc2()[pri:1, instance:testapk.Testcases@7e0b85f9]" name="tc2" duration-ms="13606" started-at="2019-12-09T14:55:29 PKT" finished-at="2019-12-09T14:55:43 PKT">
+        <test-method status="PASS" signature="tc1()[pri:1, instance:testapk.Testcases@7e0b85f9]" name="tc1" duration-ms="13822" started-at="2019-12-09T15:24:56 PKT" finished-at="2019-12-09T15:25:10 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc2()[pri:2, instance:testapk.Testcases@7e0b85f9]" name="tc2" duration-ms="14156" started-at="2019-12-09T15:25:10 PKT" finished-at="2019-12-09T15:25:24 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method status="PASS" signature="tc3()[pri:2, instance:testapk.Testcases@7e0b85f9]" name="tc3" duration-ms="14442" started-at="2019-12-09T14:55:43 PKT" finished-at="2019-12-09T14:55:57 PKT">
+        <test-method status="PASS" signature="tc3()[pri:3, instance:testapk.Testcases@7e0b85f9]" name="tc3" duration-ms="11862" started-at="2019-12-09T15:25:24 PKT" finished-at="2019-12-09T15:25:36 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc3 -->
-        <test-method status="PASS" signature="tc4()[pri:3, instance:testapk.Testcases@7e0b85f9]" name="tc4" duration-ms="11786" started-at="2019-12-09T14:55:57 PKT" finished-at="2019-12-09T14:56:09 PKT">
+        <test-method status="PASS" signature="tc4()[pri:4, instance:testapk.Testcases@7e0b85f9]" name="tc4" duration-ms="12810" started-at="2019-12-09T15:25:36 PKT" finished-at="2019-12-09T15:25:49 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc4 -->
-        <test-method status="PASS" signature="tc5()[pri:4, instance:testapk.Testcases@7e0b85f9]" name="tc5" duration-ms="12544" started-at="2019-12-09T14:56:09 PKT" finished-at="2019-12-09T14:56:22 PKT">
+        <test-method status="PASS" signature="tc5()[pri:5, instance:testapk.Testcases@7e0b85f9]" name="tc5" duration-ms="9587" started-at="2019-12-09T15:25:49 PKT" finished-at="2019-12-09T15:25:59 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc5 -->
-        <test-method status="PASS" signature="tc6()[pri:5, instance:testapk.Testcases@7e0b85f9]" name="tc6" duration-ms="9933" started-at="2019-12-09T14:56:22 PKT" finished-at="2019-12-09T14:56:32 PKT">
+        <test-method status="PASS" signature="stopappemu()[pri:0, instance:testapk.Testcases@7e0b85f9]" name="stopappemu" is-config="true" duration-ms="32" started-at="2019-12-09T15:25:59 PKT" finished-at="2019-12-09T15:25:59 PKT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc6 -->
-        <test-method status="PASS" signature="tc7()[pri:0, instance:testapk.Testcases@7e0b85f9]" name="tc7" is-config="true" duration-ms="26" started-at="2019-12-09T14:56:32 PKT" finished-at="2019-12-09T14:56:32 PKT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc7 -->
+        </test-method> <!-- stopappemu -->
       </class> <!-- testapk.Testcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

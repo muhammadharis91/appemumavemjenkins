@@ -32,7 +32,7 @@ public class Testcases {
 	ProcessBuilder pb1 = new ProcessBuilder("cmd", "/c", "appiumemulator.bat");
 	File dir = new File("src");
 	pb1.directory(dir);
-	Process p = pb1.start();
+	Process p1 = pb1.start();
 	Thread.sleep(10000);
 	System.out.println("Appium and Emulator started succcesfully");
 	}
@@ -148,7 +148,7 @@ public class Testcases {
 	ProcessBuilder pb2 = new ProcessBuilder("cmd", "/c", "stopappiumemulator.bat");
 	File dir2 = new File("src");
 	pb2.directory(dir2);
-	Process q = pb2.start();
+	Process p2 = pb2.start();
 	System.out.println("Appium and Emulator stopped succcesfully");
 	}
 }
