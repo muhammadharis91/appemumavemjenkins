@@ -134,7 +134,7 @@ public class Testcases {
 
 
 	@AfterSuite
-	@Severity(SeverityLevel.BLOCKER) 
+	@Severity(SeverityLevel.TRIVIAL) 
 	//-----------------------------------------------Stops appium and emulator-------------------------------------------------------//
 	public void stopappemu() throws InterruptedException, IOException {
 		ProcessBuilder pb2 = new ProcessBuilder("cmd", "/c", "stopappiumemulator.bat");
